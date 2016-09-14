@@ -1,0 +1,105 @@
+
+/*TAREA PARA MAÑANA MIERCOLES 14*/
+
+/*
+
+1.-  Diferencia entre
+
+		> inline-block vs float
+		> inline vs block
+		> modelo de caja
+			- padding
+			- margin
+			- outline
+			- border
+
+*/
+
+body{
+	background-color: orange;
+}
+
+/*Clases*/
+.contenedor{
+	width: 80%;
+	margin: 0 auto;
+	outline: 1px solid black
+}
+.clear{
+	clear: both;
+}
+
+/*Cabecera*/
+#header{
+	background-color: #333333;
+}
+
+#header #box-logo{
+	width: 20%;
+	display: inline-block;
+	padding: 10px;
+}
+#header #box-logo img{}
+
+#header #box-menu{
+	width: 75%;
+	display: inline-block;
+}
+#header #box-menu ul{
+	text-align: right;
+}
+#header #box-menu ul li{
+	display: inline-block;
+	padding: 0 15px 0 15px;
+}
+#header #box-menu ul li a{
+	color: #ffffff;
+	font-size: 13px;
+	text-decoration: none;
+}
+
+
+/*Slider*/
+#slider{
+	background-color: #666666;
+}
+
+#slider img{
+	width: 100%;
+	height: auto;
+}
+
+/*Seccion principal*/
+#section-main{
+	background-color: #999999;
+	text-align: center;
+}
+
+#section-main .box-article{
+	background-color: green;
+	width: 28%;
+	display: inline-block;
+	padding: 1%;
+	margin: 1%;
+}
+#section-main .box-article h2{}
+#section-main .box-article p{}
+
+
+
+
+/*Pie de página*/
+#footer{
+	background-color: #666666;
+}
+
+
+
+
+
+
+
+
+
+
+
